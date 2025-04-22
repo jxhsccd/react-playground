@@ -1,0 +1,45 @@
+{
+  "name": "react-playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.0.0",
+    "@babel/standalone": "^7.27.0",
+    "@monaco-editor/react": "^4.7.0",
+    "@typescript/ata": "^0.9.7",
+    "allotment": "^1.20.3",
+    "antd": "^5.24.7",
+    "copy-to-clipboard": "^3.3.3",
+    "fflate": "^0.8.2",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "lodash-es": "^4.17.21",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__standalone": "^7.1.9",
+    "@types/file-saver": "^2.0.7",
+    "@types/lodash-es": "^4.17.12",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "sass": "^1.86.3",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.26.1",
+    "vite": "^6.3.1"
+  }
+}

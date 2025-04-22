@@ -1,0 +1,56 @@
+.header {
+  height: 60px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--border);
+  background-color: var(--bg);
+  color: var(--text);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+
+    img {
+      height: 28px;
+      margin-right: 12px;
+      animation: spin 10s linear infinite; 
+    }
+
+    span {
+      color: var(--primary);
+    }
+  }
+
+  @keyframes spin { 
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+
+    svg {
+      font-size: 20px;
+      cursor: pointer;
+      transition: transform 0.2s ease, color 0.2s ease;
+
+      &:hover {
+        transform: scale(1.1);
+        color: var(--primary);
+      }
+    }
+  }
+}
